@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && aws s3 sync dist/ s3://YOUR-BUCKET-NAME --delete"
+    "deploy": "npm run build && aws s3 sync dist/ s3://gg-portfolio-site --delete"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",

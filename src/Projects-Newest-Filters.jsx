@@ -7,7 +7,7 @@ import {
   getAllCategories, 
   getProjectsByCategory,
   getAllTechnologies 
-} from '../data/projects';
+} from './data/projects';
 
 const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, githubUrl, year }) => (
   <motion.div

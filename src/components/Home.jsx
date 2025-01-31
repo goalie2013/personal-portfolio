@@ -2,7 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import profilePhoto from './assets/profile-photo.jpg'
+import profilePhoto from '../assets/profile-photo.jpg'
+
+const S3_BUCKET_URL = 'https://gg-portfolio-site.s3.us-west-1.amazonaws.com';
 
 const HomePage = () => {
   return (
@@ -44,7 +46,8 @@ const HomePage = () => {
             >
               <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src={profilePhoto}
+                  // src={profilePhoto}
+                  src={S3_BUCKET_URL}
                   alt="Profile Photo"
                   className="w-full h-full object-cover"
                 />
