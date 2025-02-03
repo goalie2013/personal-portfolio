@@ -6,7 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    emptyOutDir: true,
   },
   base: '/' // Change this if your S3 website is not at root level
 });
