@@ -17,8 +17,8 @@ export const projects = [
       description: "A classic notecard application with additional features, including full-text search, filters, categorical grouping, storage capabilities",
       technologies: ["JavaScript", "React", "AWS", "Tailwind CSS"],
       imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://project-url.com",
-      githubUrl: "https://github.com/username/project",
+      projectUrl: "http://gg-notecard-web-app.s3-website-us-west-1.amazonaws.com/",
+      githubUrl: "https://github.com/goalie2013/notecards-web-app",
       featured: true,
       year: "2024",
       category: "Web Application"
