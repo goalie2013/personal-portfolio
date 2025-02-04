@@ -77,7 +77,7 @@ const HomePage = () => {
             Skills & Technologies
           </h2>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-            {['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'SQL', 'NoSQL', 'Bash', 'Git', 'REST API', 'CI/CD'].map((skill) => (
+            {['Python', 'JavaScript', 'React', 'Node.js', 'AWS', 'Docker', 'SQL', 'NoSQL', 'Bash', 'Git', 'REST API', 'JSON'].map((skill) => (
               <div
                 key={skill}
                 className="flex justify-center items-center py-8 px-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow"

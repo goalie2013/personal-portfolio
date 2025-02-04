@@ -1,22 +1,22 @@
 export const projects = [
     {
       id: 1,
-      title: "E-Commerce Dashboard",
-      description: "A comprehensive dashboard for e-commerce businesses featuring real-time analytics, inventory management, and sales forecasting. Built with a focus on performance and user experience, this application handles large datasets while maintaining responsive interactions.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Redis"],
-      imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://project-url.com",
-      githubUrl: "https://github.com/username/project",
+      title: "Real Estate Auction Data & Mapping",
+      description: "Sample of a winning submission to work on real estate proprietary software for finding good deals on home auctions.",
+      technologies: ["Python", "Flask", "API", "Data Analysis", "Database"],
+      imageUrl: "https://gg-portfolio-site.s3.us-west-1.amazonaws.com/assets/screenshot_auction--1d3JNwO.png",
+      projectUrl: "https://auctions-zz9g.onrender.com/",
+      githubUrl: "https://github.com/goalie2013/auctions",
       featured: true,
-      year: "2024",
-      category: "Full Stack"
+      year: "2023",
+      category: "Web Application"
     },
     {
       id: 2,
       title: "Notecard Application",
-      description: "A classic notecard application with additional features, including full-text search, filters, categorical grouping, storage capabilities",
+      description: "A classic notecard application with additional features, including full-text search, filters, categorical grouping, and storage capabilities. Also includes themes for light and dark mode.",
       technologies: ["JavaScript", "React", "AWS", "Tailwind CSS"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: "https://gg-portfolio-site.s3.us-west-1.amazonaws.com/assets/screenshot_notecard_app-6z5XajIf.png",
       projectUrl: "http://gg-notecard-web-app.s3-website-us-west-1.amazonaws.com/",
       githubUrl: "https://github.com/goalie2013/notecards-web-app",
       featured: true,
@@ -25,14 +25,26 @@ export const projects = [
     },
     {
       id: 3,
-      title: "Real-Time Collaboration Tool",
-      description: "A collaborative workspace application enabling teams to work together in real-time on documents, diagrams, and code. Implements WebSocket technology for instant updates and includes features like version control and automatic conflict resolution.",
-      technologies: ["TypeScript", "Socket.io", "Redis", "AWS", "Docker"],
-      imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://project-url.com",
-      githubUrl: "https://github.com/username/project",
+      title: "Banking Simulation Application",
+      description: "A banking simulation showcases full-stack capabilities, including front-end, authentication, back-end, database, configuration, and hosting.",
+      technologies: ["React", "Express", "Node.js", "MongoDB", "Firebase", "Docker"],
+      imageUrl: "https://gg-portfolio-site.s3.us-west-1.amazonaws.com/assets/screenshot_banking_app-BiPWXlPq.png",
+      projectUrl: "https://betterbankingapp.net/",
+      githubUrl: "https://github.com/goalie2013/capstone-bank",
+      featured: true,
+      year: "2022",
+      category: "Full Stack Application"
+    },
+    {
+      id: 4,
+      title: "Nasa Images Search Engine",
+      description: "A simple yet fun project searching through NASA's catalogue for images. The focus was on API calls, forms, pagination, and vanilla CSS.",
+      technologies: ["Rest API", "React"],
+      imageUrl: "https://gg-portfolio-site.s3.us-west-1.amazonaws.com/assets/screenshot_nasa-DOlrFbKJ.png",
+      projectUrl: "https://goalie2013.github.io/nasa-images/",
+      githubUrl: "https://github.com/goalie2013/nasa-images",
       featured: false,
-      year: "2023",
+      year: "2022",
       category: "Web Development"
     }
   ];

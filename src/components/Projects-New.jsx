@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 import { projects } from '../data/projects';
+// need to import assets/ images for some reason so they upload to AWS S3 bucket
+import notecard_screenshot from '../assets/screenshot_notecard_app.png'
+import banking_screenshot from '../assets/screenshot_banking_app.png'
+import nasa_screenshot from '../assets/screenshot_nasa.png'
+import auction_screenshot from '../assets/screenshot_auction.png'
 
 const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, githubUrl }) => (
   <motion.div
@@ -79,7 +84,7 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Featured <span className="font-extrabold text-indigo-600">Projects</span>
+            Favorite <span className="font-extrabold text-indigo-600">Projects</span>
           </h2>
           
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
